@@ -11,7 +11,7 @@ This repo is to document my implementations of famous data structures and algori
 - Queues - Circular Queue
 - Queues - Deque
 - Stacks - Stack using Array
-- Stakcs - Stack using Linked List
+- Stacks - Stack using Linked List
 - Trees - Binary Search Tree
 
 ## Current Algorithms Implementations
