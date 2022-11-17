@@ -8,10 +8,12 @@ This repo is to document my implementations of famous data structures and algori
 - Linked Lists - Doubly Linked List
 - Queues - Classic Queue using Array
 - Queues - Classic Queue using Linked List
+- Queues - Classic Queue using Two Stacks
 - Queues - Circular Queue
 - Queues - Deque
 - Stacks - Stack using Array
 - Stacks - Stack using Linked List
+- Stacks - Stack using Two Queues
 - Trees - Binary Search Tree
 
 ## Current Algorithms Implementations
