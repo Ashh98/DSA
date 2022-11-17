@@ -23,3 +23,4 @@ This repo is to document my implementations of famous data structures and algori
 - Sorting - Merge Sort
 - Sorting - Quick Sort
 - Sorting - Selection Sort
+- Sorting - Bubble Sort
