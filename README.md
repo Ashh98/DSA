@@ -20,3 +20,4 @@ This repo is to document my implementations of famous data structures and algori
 - Sorting - Insertion Sort
 - Sorting - Merge Sort
 - Sorting - Quick Sort
+- Sorting - Selection Sort
