@@ -20,6 +20,7 @@ This repo is to document my implementations of famous data structures and algori
 
 - Searching - Linear Search
 - Searching - Binary Search
+- Searching - Jump Search
 - Sorting - Insertion Sort
 - Sorting - Merge Sort
 - Sorting - Quick Sort
