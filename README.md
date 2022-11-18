@@ -18,6 +18,7 @@ This repo is to document my implementations of famous data structures and algori
 
 ## Current Algorithms Implementations
 
+- Searching - Linear Search
 - Searching - Binary Search
 - Sorting - Insertion Sort
 - Sorting - Merge Sort
