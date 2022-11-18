@@ -15,6 +15,17 @@ void insertionSort(int* arr, int size) {
     }
 }
 
+void insertionSortSIMPLE(vector<int>& arr, int arrSize) {
+    int hole;
+    for (int i = 1; i < arrSize; i++) {
+        hole = i;
+        while (hole > 0 && arr[hole-1] > arr[hole]) {
+            swap(arr[hole-1], arr[hole]);
+            hole--;
+        }
+    }
+}
+
 int main()
 {
     int arr[] = {2, 8, 4, 6, 13, 0, 66, 3, -3};
