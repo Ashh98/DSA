@@ -28,3 +28,4 @@ This repo is to document my implementations of famous data structures and algori
 - Sorting - Bubble Sort
 - Sorting - Count Sort
 - Sorting - Radix Sort
+- Sorting - Shell Sort
