@@ -44,7 +44,7 @@ vector<int> radixSort(vector<int>& arr) {
     for (int i = 0; i < d; i++) {
         bins.resize(getMaxPlaceValue(res, place_Val)+1);
         for (int i = 0; i < res.size(); i++) {
-            bins[getPlaceValue(res[i], d)].push_back(res[i]);
+            bins[getPlaceValue(res[i], place_Val)].push_back(res[i]);
         }
         res.clear();
         for (auto& i : bins) {
@@ -54,7 +54,7 @@ vector<int> radixSort(vector<int>& arr) {
         }
         
         bins.clear();
-        d *= 10;
+        place_Val *= 10;
     }
     
     return res;
