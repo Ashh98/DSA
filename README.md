@@ -27,3 +27,4 @@ This repo is to document my implementations of famous data structures and algori
 - Sorting - Selection Sort
 - Sorting - Bubble Sort
 - Sorting - Counting Sort
+- Sorting - Radix Sort
