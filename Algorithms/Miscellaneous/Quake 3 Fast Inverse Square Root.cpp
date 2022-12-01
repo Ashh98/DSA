@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float Quake3_IFSQRT(float x) {
+float Quake3_FISQRT(float x) {
     long i; float x2, y;
     
     x2 = x * 0.5F;
@@ -16,6 +16,6 @@ float Quake3_IFSQRT(float x) {
 int main() {
     double x = 3;
     
-    cout << Quake3_IFSQRT(x) << endl;
+    cout << Quake3_FISQRT(x) << endl;
 
 }
