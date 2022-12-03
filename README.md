@@ -29,4 +29,6 @@ This repo is to document my implementations of famous data structures and algori
 - Sorting - Count Sort
 - Sorting - Radix Sort
 - Sorting - Shell Sort
+- Graphs - Depth First Search (DFS)
+- Graphs - Breadth First Search (BFS)
 - Shortest Path - Dijkstra's Algorithm
