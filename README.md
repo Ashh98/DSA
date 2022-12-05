@@ -31,4 +31,5 @@ This repo is to document my implementations of famous data structures and algori
 - Sorting - Shell Sort
 - Graphs - Depth First Search (DFS)
 - Graphs - Breadth First Search (BFS)
-- Shortest Path - Dijkstra's Algorithm
+- Graphs - Cycle Detection for Directed Graphs using DFS
+- Graphs - Dijkstra's Algorithm
