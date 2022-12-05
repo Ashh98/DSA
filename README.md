@@ -29,8 +29,9 @@ This repo is to document my implementations of famous data structures and algori
 - Sorting - Count Sort
 - Sorting - Radix Sort
 - Sorting - Shell Sort
-- Graphs - Depth First Search (DFS)
 - Graphs - Breadth First Search (BFS)
-- Graphs - Cycle Detection for Directed Graphs using DFS
+- Graphs - Depth First Search (DFS)
 - Graphs - Cycle Detection for Undirected Graphs using BFS
+- Graphs - Cycle Detection for Directed Graphs using DFS
+- Graphs - Topological Sort using BFS
 - Graphs - Dijkstra's Algorithm
