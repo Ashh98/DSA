@@ -32,4 +32,5 @@ This repo is to document my implementations of famous data structures and algori
 - Graphs - Depth First Search (DFS)
 - Graphs - Breadth First Search (BFS)
 - Graphs - Cycle Detection for Directed Graphs using DFS
+- Graphs - Cycle Detection for Undirected Graphs using DFS
 - Graphs - Dijkstra's Algorithm
