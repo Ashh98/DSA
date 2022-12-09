@@ -33,19 +33,25 @@ class DisjointSet {
                 AR1 = findAR(i.first);
                 AR2 = findAR(i.second);
                 
-                
                 //Union by rank
                 if (AR1 != AR2) {
-                    parent[AR2] = AR1;
-                    if (rank[AR1] == rank[AR2]) rank[AR1]++;
-                } else if (AR1 == AR2 && AR1 != -1) return true;
-                else {
-                    parent[AR1] = AR2;
-                    if (rank[AR1] == rank[AR2]) rank[AR2]++;
+                    if (rank[AR1] > rank[AR2]) parent[AR2] = AR1;
+                    else if (rank[AR1] < rank[AR2]) parent[AR1] = AR2;
+                    else {
+                        parent[AR1] = AR2;
+                        rank[AR2]++;
+                    }
+                } else if (AR1 == AR2) {
+                    if (AR1 != -1) return true;
+                    else {
+                        parent[AR1] = AR2;
+                        rank[AR2]++;
+                    }
                 }
             }
             return false;
         }
+    
     private:
         int V;
         vector<pair<int, int>> edgeList;
