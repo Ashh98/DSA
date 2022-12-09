@@ -35,7 +35,7 @@ class DisjointSet {
                 
                 
                 //Union by rank
-                if (AR1 > AR2) {
+                if (AR1 != AR2) {
                     parent[AR2] = AR1;
                     if (rank[AR1] == rank[AR2]) rank[AR1]++;
                 } else if (AR1 == AR2 && AR1 != -1) return true;
