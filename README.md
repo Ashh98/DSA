@@ -36,4 +36,5 @@ This repo is to document my implementations of famous data structures and algori
 - Graphs - Cycle Detection for Undirected Graphs using Optimized Disjoint Sets
 - Graphs - Cycle Detection for Directed Graphs using DFS
 - Graphs - Topological Sort using BFS
+- Graphs - Prim's Algorithm for Minimum Spanning Trees
 - Graphs - Dijkstra's Algorithm
